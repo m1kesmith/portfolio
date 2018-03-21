@@ -1,0 +1,165 @@
+
+
+body, html {
+    margin: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #292929;
+}
+
+header .header-title {
+    font-size: 50px;
+    max-width:4em;
+    text-align: left;
+    margin: 0 auto;
+}
+
+header .header-title span {
+    margin-left: 2em;
+}
+header .header-job-description {
+    font-size: 30px;
+    text-align: center;
+}
+header nav {
+    text-align: right;
+    padding: .5em;
+    padding-bottom: 1em;
+}
+
+header nav a {
+    color: #DEDEDE;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header nav a:hover {
+    color: #292929;
+}
+.brand{
+    padding: 0.5em;
+}
+
+header {
+    background: #DEDEDE;
+    color: #292929;
+    padding: 0.5em;
+    padding-bottom: 1em;
+}
+
+.bg-raindrops {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    background: url(/assets/img/raindrops.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quote {
+    max-width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    background: rgba(163,26,26,.8); 
+    padding: 1em;
+    font-style: italic;
+    color: #DEDEDE;
+}
+
+section#about {
+    
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.8em;
+}
+.about-list, .about-title {
+    text-align: center;
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;    
+    min-height: 300px;
+    padding: 2em 3em 2em 3em;
+    font-size: 2em;
+    line-height: 1.8em;
+    text-align: center;
+}
+
+section#skills {
+    background-color: rgba(163,26,26);
+    text-align: center;
+    color: #DEDEDE;
+}
+
+.skills-list, .about-list {
+    color: #DEDEDE;
+    list-style: none;
+    line-height: 2em;
+    padding: 0;
+    margin: 1em;
+}
+
+.about-list {
+    color: #292929;
+}
+
+section#icons {
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #DEDEDE;
+    align-items: center;
+    padding: 5px;
+    margin-left: 0;
+   
+}
+
+section.contact {
+    display: flex;
+    justify-content: center;
+    padding: 2em 3em 2em 3em;
+
+}
+
+.form-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+form {
+    text-align: right;
+  
+    margin: 0 auto;
+  
+}
+
+form input {
+    margin: 1em;
+    width: 30em;
+    height: 2em;
+    font-size: 30px;
+}
+
+form textarea {
+    margin: 1em;
+    width: 30em;
+    font-size: 30px;
+}
+
+button{
+    height: 60px;
+    width: 120px;
+    font-size: 30px;
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
+    background: rgba(163,26,26);
+    color: rgb(221, 222, 236);
+   
+}
